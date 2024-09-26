@@ -1,0 +1,13 @@
+ Encapsulamento é uma prática fundamental na programação orientada a objetos, que visa proteger os dados internos de uma classe e expor apenas o necessário. 
+ o encapsulamento é fundamental para a manutenção da integridade dos objetos e a proibição de qualquer alteração indevida nos valores dos atributos (estado) do objeto
+
+ Esse ponto foi fundamental para a popularização da orientação aos objetos: reunir dados e funções em uma única entidade e proibir a alteração indevida dos atributos.
+
+
+ Seguindo em nosso exemplo, no caso da classe Conta, imagine que algum programa tente realizar a seguinte alteração direta no valor do saldo:
+
+ conta1.saldo = -200
+
+ Esse comando viola a regra de negócio do método sacar(), que indica a fim de não haver saque maior que o valor e de deixar a conta no negativo (estado inválido para o sistema).
+
+ Para proibir alterações indevidas dos atributos usaremos o encapsulamento.
