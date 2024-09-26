@@ -1,0 +1,13 @@
+Polimorfismo em Python permite que objetos de diferentes classes sejam tratados através de uma interface comum, adaptando comportamentos conforme necessário.
+
+Polimorfismo é o mecanismo que permite a um método com o mesmo nome ser executado de modo diferente a depender do objeto que está chamando o método.
+A linguagem define em tempo de execução (late binding) qual método deve ser chamado. 
+Essa característica é bastante comum em herança de classes devido à redefinição da implementação dos métodos nas subclasses.
+
+Vamos imaginar que agora tenhamos uma entidade Banco que controla todas as contas criadas no sistema de conta corrente.
+As contas podem ser do tipo conta, contacomum ou contarenumerada. 
+O cálculo do rendimento da conta Cliente desconta IOF e IR; a conta Comum, apenas o IOF. Já a conta Renumerada não tem desconto nenhum.
+
+Todos os descontos são realizados em cima do valor bruto após o rendimento mensal.
+Uma vez por mês, o banco executa o cálculo do rendimento de todos os tipos de contas.
+

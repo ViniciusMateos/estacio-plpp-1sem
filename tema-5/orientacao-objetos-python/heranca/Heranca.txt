@@ -1,0 +1,2 @@
+Herança em Python permite que uma classe derive características e comportamentos de outra, promovendo reutilização e organização de código.
+Neste conteúdo, exploraremos como implementar herança, criando hierarquias de classes que facilitam a manutenção e a extensão de aplicações.

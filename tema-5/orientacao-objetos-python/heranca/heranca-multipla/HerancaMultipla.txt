@@ -1,0 +1,7 @@
+É um mecanismo que possibilita a uma classe herdar o código de duas ou mais superclasses.
+Para nosso sistema, vamos considerar a necessidade de um novo produto, que consiste em uma conta corrente similar àquela definida anteriormente no sistema, com as seguintes características.
+
+    Deverá ter um rendimento diário com base no rendimento da conta-poupança.
+    Terá de ser cobrada uma taxa de manutenção mensal, mesmo se o rendimento for de apenas um dia.
+
+    A Classe Poupança também será criada para armazenar a taxa de renumeração e o cálculo do rendimento mensal da poupança.
