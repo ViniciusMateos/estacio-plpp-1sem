@@ -1,0 +1,12 @@
+Importe abc para o projeto (abstract base classes).
+
+Defina a classe abstrata Veiculo:
+    Crie uma classe abstrata chamada Veiculo com os métodos abstratos mover() e ligar().
+
+Crie subclasses de Veículo:
+    Implemente duas subclasses de Veículo: Carro e Bicicleta;
+    Cada subclasse deve fornecer implementações concretas para os métodos abstratos de acordo com o comportamento de cada veículo.
+
+Teste as implementações:
+    Crie instâncias de Carro e Bicicleta;
+    Chame os métodos mover() e ligar() em cada instância e verifique as saídas para garantir que funcionem conforme o esperado.

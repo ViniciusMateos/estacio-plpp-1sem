@@ -1,0 +1,12 @@
+No desenvolvimento de software, lidar com situações imprevistas é uma necessidade constante. 
+Em Python, essas situações são tratadas por meio de exceções, que representam eventos inesperados capazes de interromper o fluxo normal de um programa.
+
+O QUE SÃO EXCEÇÕES?
+
+Exceções são eventos que ocorrem durante a execução de um programa, interrompendo seu fluxo normal.
+Em Python, quando uma exceção é lançada e não é tratada, o programa encerra sua execução abruptamente, exibindo uma mensagem de erro.
+Para evitar esse comportamento indesejado, é fundamental entender como capturar e tratar exceções, garantindo que o programa continue funcionando de forma controlada.
+
+Além disso, Python permite a criação de exceções personalizadas, o que possibilita a diferenciação entre os erros inerentes à linguagem e aqueles específicos da lógica da aplicação.
+Isso contribui para um código mais claro e fácil de manter.
+

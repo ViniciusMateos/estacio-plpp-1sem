@@ -1,0 +1,8 @@
+Defina a classe Calculadora:
+    Crie métodos para  adição, subtração, multiplicação e divisão;
+    Tratamento a exceções de tipos de dados incorretos.
+
+Teste as implementações:
+    Crie instâncias da Classe;
+    Chame os métodos e realizar operações aritméticas;
+    Passe valores inválidos para os métodos.

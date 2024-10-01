@@ -1,0 +1,9 @@
+Definir uma classe abstrata é uma característica bastante utilizada pela programação orientada a objetos.
+
+Uma classe abstrata não pode ser instanciado durante a execução do programa orientado a objetos, ou seja, não pode haver objetos dessa classe executados na memória.
+
+O termo “abstrato” remete a um conceito do mundo real, considerando a necessidade apenas de objetos concretos no programa. 
+A classe abstrata se encaixa perfeitamente no problema do sistema de conta corrente do banco. 
+Nesse sistema, o banco não quer tratar de clientes do tipo ContaCliente, e sim apenas dos objetos do tipo ContaComum e Conta VIP.
+
+
