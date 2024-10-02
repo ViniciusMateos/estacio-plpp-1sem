@@ -1,0 +1,22 @@
+Assim como em outras linguagens, o Python permite a criação de funções anônimas.
+Estas são definidas sem identificador (ou nome) e, normalmente, são utilizadas como argumentos para outras funções (de ordem superior).
+
+Em Python, as funções anônimas são chamadas de funções lambda.
+Para criá-las, utilizamos a seguinte sintaxe:
+
+    lambda argumentos: expressão
+
+Iniciamos com a palavra reservada lambda, seguida de uma sequência de argumentos separados por vírgula, dois pontos e uma expressão de apenas uma linha.
+ As funções lambda sempre retornam o valor da expressão automaticamente. Não é necessário utilizar a palavra return.
+
+ Considere a função para multiplicar dois números a seguir:
+
+    def multiplicar(a, b):
+        return a*b
+
+A função lambda equivalente é:
+
+    lambda a, b: a*b
+
+Temos os parâmetros a e b e a expressão a*b, que é retornado automaticamente. 
+As funções lambda podem ser armazenadas em variáveis para depois serem chamadas como uma função qualquer.

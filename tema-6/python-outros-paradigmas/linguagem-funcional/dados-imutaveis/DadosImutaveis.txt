@@ -1,0 +1,11 @@
+Dados imutáveis são aqueles que não podem ser alterados após sua criação. 
+Apesar do Python disponibilizar algumas estruturas de dados imutáveis, como as tuplas, a maioria é mutável. 
+Na programação funcional, devemos tratar todos os dados como imutáveis!
+
+As funções puras devem utilizar apenas os parâmetros de entrada para gerar as saídas. 
+Além dessa característica, as funções puras não podem alterar nenhuma variável fora de seu escopo.
+
+Observe os scripts funcao3.py e funcao4.py a seguir, em que passamos a lista valores como argumento para a função altera_lista.
+Lembre-se de que, no Python, ao passar uma lista como argumento, apenas passamos sua referência, ou seja, qualquer mudança feita no parâmetro dentro da função, também altera a lista original.
+Nos emuladores seguintes, informe no campo Input os números inteiros a serem atribuídos à lista valores e clique em Executar para que os scripts sejam executados.
+

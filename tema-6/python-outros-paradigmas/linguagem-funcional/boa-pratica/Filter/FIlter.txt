@@ -1,0 +1,15 @@
+É utilizada para filtrar elementos de um iterável (lista, tupla, dicionários etc.). 
+O filtro é realizado utilizando uma função, que deve ser capaz de retornar true ou false (verdadeiro ou falso) para cada elemento do iterável.
+
+Todo elemento que for avaliado como true será incluído em um novo iterável retornado pela função filter, que é pura e de alta ordem, pois depende apenas dos parâmetros e recebe uma função como parâmetro.
+ A sua sintaxe é a seguinte:
+
+    filter(função, iterável
+
+O primeiro parâmetro da função filter é o nome da função (sem parênteses), que será executada para cada item do iterável. 
+O segundo parâmetro é o iterável. A função filter sempre retorna um novo iterável, mesmo que vazio.
+
+Nos exemplos a seguir, funções função_filtro_iterable.py, função_filter.py e função_filter_lambda.py, vamos criar três scripts.
+Todos fazem a mesma filtragem.
+Recebem uma lista e retornam os elementos ímpares, gerando uma nova lista, de forma a garantir a imutabilidade.
+

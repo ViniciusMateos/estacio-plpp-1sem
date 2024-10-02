@@ -1,0 +1,4 @@
+Funções puras são aquelas que dependem apenas dos parâmetros de entrada para gerar uma saída. 
+Elas sempre retornam um valor, um objeto ou outra função. 
+Em qualquer ponto do programa, ao chamar uma função pura, com os mesmos parâmetros, devemos obter sempre o mesmo resultado.
+

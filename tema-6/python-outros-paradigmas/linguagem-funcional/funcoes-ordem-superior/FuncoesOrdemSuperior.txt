@@ -1,0 +1,6 @@
+Na programação funcional, é muito comum utilizar funções que aceitem outras funções, como parâmetros ou que retornem outra função.
+Essas funções são chamadas de funções de ordem superior (higher order function).
+
+No exemplo a seguir, script funcao5.py, vamos criar uma função de ordem superior chamada multiplicar_por. Ela será utilizada para criar e retornar novas funções.
+
+Essa função, ao ser chamada com um determinado multiplicador como argumento, retorna uma nova função multiplicadora por aquele multiplicador e que tem como parâmetro o número a ser multiplicado (multiplicando).

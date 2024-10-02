@@ -1,0 +1,9 @@
+As funções puras e dados imutáveis buscam evitar os efeitos indesejáveis, como ocorreu no script funcao3.py. 
+Na terminologia de programação funcional, chamamos isso de efeito colateral (side effect). 
+
+A dependência apenas dos parâmetros para gerar saídas garante que o resultado será sempre o mesmo, independentemente do estado da aplicação, por exemplo, valores de outras variáveis. 
+Ou seja, não teremos diferentes comportamentos para uma função baseado no estado atual da aplicação.
+
+Ao garantir que uma função utilizará apenas os dados de entrada para gerar um resultado e que nenhuma variável fora do escopo da função será alterada, temos a certeza de que não teremos um problema escondido, ou efeito colateral em nenhuma outra parte do código.
+
+O objetivo principal da programação funcional não é utilizar funções puras e dados imutáveis, mas sim evitar o efeito colateral.

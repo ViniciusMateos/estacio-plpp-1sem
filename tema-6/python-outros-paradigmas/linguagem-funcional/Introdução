@@ -1,0 +1,16 @@
+A programação funcional teve seu início no final dos anos 1950, com a linguagem LISP.
+
+À diferença do que muitos pensam, esse tipo de programação não é apenas a utilização de funções em seu código-fonte, mas um paradigma e um estilo de programação.
+
+Na programação funcional, toda ação realizada pelo programa deve ser implementada como uma função ou uma composição de funções, mas estas devem seguir as seguintes regras:
+
+    - As funções devem ser puras, ou seja, em qualquer ponto do programa, sempre produzem o mesmo resultado quando passados os mesmos parâmetros.
+    - Os dados devem ser imutáveis, e uma vez definida uma variável, seu valor não pode ser alterado.
+    - Os loops não devem ser utilizados, mas sim a composição de funções ou recursividade.
+
+A utilização dessas regras visa garantir, principalmente, que não haja um efeito indesejável e imprevisto quando executamos um programa ou parte dele.
+
+
+Muitas linguagens de programação (como Python, Java e C++) dão suporte para a programação funcional, porém são de propósito geral, dando base para outros paradigmas, como programação imperativa e orientada a objetos.
+
+Outras linguagens, como Haskell, Clojure e Elixir são predominantemente de programação funcional.

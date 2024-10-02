@@ -1,0 +1,9 @@
+Outra regra, ou boa prática, da programação funcional é não utilizar laços (for e while), mas sim composição de funções ou recursividade.
+
+A função lambda exerce um papel fundamental nisso, como veremos a seguir.
+
+Para facilitar a composição de funções e evitar loops, o Python disponibiliza diversas funções e operadores.
+
+As funções internas mais comuns são map e filter.
+
+
